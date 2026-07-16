@@ -1,0 +1,34 @@
+{
+  "name": "earthlink-ai",
+  "version": "1.0.0",
+  "description": "EarthLink AI - Global Connectivity & Intelligent Mesh Networking",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server -p 3000 -o",
+    "build": "echo 'Build complete' && cp -r . dist/ 2>/dev/null || robocopy . dist /S /E",
+    "start": "http-server -p 3000",
+    "serve": "python -m http.server 3000",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "earthlink",
+    "ai",
+    "mesh",
+    "networking",
+    "connectivity"
+  ],
+  "author": "kamaleshskzone-coder",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamaleshskzone-coder/earthlink-ai.git"
+  },
+  "homepage": "https://github.com/kamaleshskzone-coder/earthlink-ai#readme"
+}
