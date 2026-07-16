@@ -1,0 +1,31 @@
+site: EarthLink AI
+title: Global Connectivity & Intelligent Mesh Networking
+description: EarthLink AI - Advanced mesh networking platform
+baseurl: /earthlink-ai
+url: https://kamaleshskzone-coder.github.io
+
+# Jekyll Configuration
+theme: null
+plugins: []
+
+# Build settings
+markdown: kramdown
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - setup.sh
+  - setup.bat
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
